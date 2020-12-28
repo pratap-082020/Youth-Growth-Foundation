@@ -1,0 +1,114 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.page-footer {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-family: "Comfortaa", cursive;
+  padding: 20px;
+  text-weight: 4px;
+  bottom: 0;
+}
+
+section .quote {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+
+section .quote-name {
+  font-size: 20px;
+  text-align: right;
+  text-alin: center;
+  font-family: "Lobster", cursive;
+}
+
+.col .s4 .card {
+  margin: 12px;
+  left: auto;
+  right: auto;
+}
+
+img {
+  border-radius: 10% 0px;
+  width: 100%;
+  height: auto;
+}
+
+nav ul a.active {
+  background-color: #2c3875;
+  color: white;
+  font-size: 20px;
+}
+
+.main-content {
+  padding-bottom: 20px;
+}
+
+div.loading {
+  height: 10em;
+  position: relative;
+}
+div.div.loading {
+  margin: 0;
+  background: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  orm: translate(-50%, -50%);
+}
+
+.card .card-image img {
+  border-radius: 0 10%;
+}
+
+h1 small {
+  display: block;
+  font-size: 0.45em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#headline {
+  z-index: 8000;
+  position: absolute;
+  color: #fff;
+  font-size: 5em;
+  margin: 0;
+  top: 150px;
+  left: 3.6em;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+@media only screen and (min-width: 1500px) {
+  #headline {
+    left: 5em;
+  }
+}
+
+#headline small {
+  font-size: 0.29em;
+}
+
+.container.white {
+  position: relative;
+  width: 60%;
+}
+
+#main {
+  margin-top: -100px;
+}
+
+.text-container {
+  padding: 2em;
+}
